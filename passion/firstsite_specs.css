@@ -1,0 +1,28 @@
+body {
+    background-color: black; 
+}
+
+h1, h2, h3, p, ol {
+    color: red;
+}
+
+@font-face {
+    font-family: 'JBLACKLETTER';
+    src: url('JBLACK.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.special {
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'JBLACKLETTER', sans-serif;
+    font-size: 60px;
+}
+
+h2, h3 {
+    font-family: 'JBLACKLETTER', sans-serif;
+}
+    
