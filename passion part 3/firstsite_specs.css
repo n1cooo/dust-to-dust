@@ -1,0 +1,119 @@
+ body {
+    background-color: lightblue;
+    background-image:repeating-linear-gradient(45deg, rgb(201, 201, 201), rgb(201, 201, 201) 10px, lightblue 10px, lightblue 20px);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(124, 112, 247);
+    transform: scaleY(3);
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+h2, h3 {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+} 
+ 
+h3 {
+    margin-bottom: 70px;
+}
+
+
+p {
+    font-family: fantasy;
+    font-size: 20px;
+    color: blueviolet
+
+}
+
+#aboveimage {
+    margin-bottom: 40px;
+}
+
+.special-paragraph {
+    margin-bottom: 50px;
+}
+
+
+ol {
+    margin-bottom: 40px;
+    color: rgb(0, 70, 0);
+}
+
+.special {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px hotpink;
+}
+
+#caption {
+    margin-bottom: 60px;
+}
+
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#aspects {
+    text-align: left; 
+    margin-left: 20px;
+    font-size: 24px;
+    color: rgb(0, 70, 0);
+}
+
+#image-one {
+    height: 100px;
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+
+.unique-image {
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 0, 191);
+    display: block;
+}
+
+.container{
+    text-align: center;
+}
+
+.container img {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+<!-- settings below are for the link! -->
+
+
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color:white;
+}
+
+
+a:hover {
+    color: orange;
+}
+

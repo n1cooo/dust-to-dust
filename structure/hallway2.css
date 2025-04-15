@@ -1,0 +1,33 @@
+body {
+    background-image: url(nurple-static-bright.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-container {
+    position: relative; /* This allows absolute positioning inside */
+    width: 125%; /* Match image width */
+}
+
+.image-container img{
+    width: 100%; /* Ensures image scales properly */
+}
+
+.clickable-area {
+    position: absolute; /* Allows precise placement */
+    top: 200px; /* Move down to where the door is */
+    left: 55%; /* Move right to the door's position */
+    width: 100px; /* Set the width of the clickable area */
+    height: 400px; /* Set the height of the clickable area */
+    display: block; /* Make it behave like a box */
+    background: rgba(255, 0, 0, 0); /* Semi-transparent red for testing */
+}
+
+.full-screen-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

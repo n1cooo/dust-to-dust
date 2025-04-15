@@ -1,0 +1,46 @@
+body {
+    background-color: lightpink;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* external styles are the least specific application */
+div {
+    margin: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* defualt tags are the least specific way to apply styles */
+main {
+    margin: 20px;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+/* classes are more specific than default tags, but less specific than ids */
+.class {
+    background-color: lightsalmon;
+}
+
+/* ids are the most specific */
+#id {
+    background: lightslategray;
+}
+
+footer {
+    margin: 20px;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+
+/* styles declared lower in the CSS document are more specific */
+footer {
+    background: lightcyan;
+}

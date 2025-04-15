@@ -1,0 +1,18 @@
+body {
+    background-color: brown;
+}
+
+h1, p {
+    color: white;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 1000px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+

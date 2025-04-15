@@ -1,0 +1,24 @@
+body {
+    background-image: url(nurple-static-bright.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-container {
+    position: relative; /* This allows absolute positioning inside */
+    width: 100%; /* Match image width */
+}
+
+.image-container img{
+    width: 100%; /* Ensures image scales properly */
+}
+
+
+.full-screen-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

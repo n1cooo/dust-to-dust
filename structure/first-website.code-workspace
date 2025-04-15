@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "first-website",
+			"path": "../first-website"
+		},
+		{
+			"name": "structure",
+			"path": "."
+		},
+		{
+			"path": "../passion"
+		}
+	],
+	"settings": {}
+}
